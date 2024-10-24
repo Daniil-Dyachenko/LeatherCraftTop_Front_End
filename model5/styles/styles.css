@@ -43,8 +43,8 @@ body {
 }
 
 .header-img {
-    width: 30%;
-    height: 100%;
+    width: 37%;
+    height: 95%;
 }
 
 .header-img img {
@@ -264,6 +264,9 @@ body {
         width: 100%;
         border-top: 1px solid #000;
         margin-top: 20px;
+    }
+    .footer-list {
+    padding-bottom: 10px;
     }
 }
 
