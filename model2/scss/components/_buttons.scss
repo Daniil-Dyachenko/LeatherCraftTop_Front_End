@@ -12,18 +12,17 @@ button:hover, a:hover {
 
 .buy-btn {
     text-align: right;
-}
+    button {
+        background-color: #8B4513;
+        color: white;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
 
-.buy-btn button {
-    background-color: #8B4513;
-    color: white;
-    padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-.buy-btn button:hover {
-    opacity: 0.8;
+    button:hover {
+        opacity: 0.8;
+    }
 }

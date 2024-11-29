@@ -1,27 +1,24 @@
 .search {
     position: relative;
-}
-
-.search input{
-    border: 1px solid #ddd;
-    padding-left: 10px;
-    padding-right: 30px;
-    width: 1240px;
-    height: 35px;
-}
-
-.search input:focus {
-    outline: none;
-    border-color: blue;
-}
-
-.search i {
-    position: absolute;
-    color: dodgerblue;
-    cursor: pointer;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%) scaleX(-1);
+    input{
+        border: 1px solid #ddd;
+        padding-left: 10px;
+        padding-right: 30px;
+        width: 1240px;
+        height: 35px;
+    }
+    input:focus {
+        outline: none;
+        border-color: blue;
+    }
+    i {
+        position: absolute;
+        color: dodgerblue;
+        cursor: pointer;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%) scaleX(-1);
+    }
 }
 
 .search-icon {

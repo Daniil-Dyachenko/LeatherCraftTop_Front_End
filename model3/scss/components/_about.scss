@@ -5,10 +5,9 @@
     background-color: #F5F5DC;
     border-radius: 10px;
     padding-inline: 10px;
-}
-
-.about-content .register {
-    margin-bottom: 30px;
+    .register {
+        margin-bottom: 30px;
+    }
 }
 
 .about-name {
@@ -25,10 +24,9 @@
 
 .about-img {
     height: 400px;
-}
-
-.about-img img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
 }

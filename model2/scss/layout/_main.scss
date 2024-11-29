@@ -2,15 +2,13 @@
     display: table;
     border-collapse: collapse;
     width: 100%;
-}
-
-.layout aside {
-    display: table-cell;
-    vertical-align: top;
-    width: 20%;
-}
-
-.layout section {
-    display: table-cell;
-    width: 80%;
+    aside {
+        display: table-cell;
+        vertical-align: top;
+        width: 20%;
+    }
+    section {
+        display: table-cell;
+        width: 80%;
+    }
 }

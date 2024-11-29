@@ -58,12 +58,11 @@
     .top-logo {
         justify-content: center;
         gap: 10px;
+        h1 {
+            font-size: 20px;
+        }
     }
-
-    .top-logo h1 {
-        font-size: 20px;
-    }
-
+    
     .top-search {
         width: 250px;
         margin-right: 0;

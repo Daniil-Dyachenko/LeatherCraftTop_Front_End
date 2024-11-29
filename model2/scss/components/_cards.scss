@@ -1,13 +1,12 @@
 .product-card {
     width: 100%;
     border-spacing: 0;
-}
-
-.product-card img {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
-    background-color: #f0f0f0;
+    img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        background-color: #f0f0f0;
+    }
 }
 
 .item-info {

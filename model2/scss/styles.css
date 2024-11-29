@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  margin-right: 10px;
+}
+
+li:hover {
+  transform: translateX(5px);
+}
+
 html {
   height: 100%;
   margin: 0;
@@ -12,21 +27,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-li:hover {
-  transform: translateX(5px);
-}
-
-* {
-  box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
-  margin: 0;
-  padding: 0;
-}
-
-.wrap {
-  margin-right: 10px;
 }
 
 header, navigation, section {
@@ -60,13 +60,11 @@ footer {
   border-collapse: collapse;
   width: 100%;
 }
-
 .layout aside {
   display: table-cell;
   vertical-align: top;
   width: 20%;
 }
-
 .layout section {
   display: table-cell;
   width: 80%;
@@ -87,7 +85,6 @@ button:hover, a:hover {
 .buy-btn {
   text-align: right;
 }
-
 .buy-btn button {
   background-color: #8B4513;
   color: white;
@@ -97,7 +94,6 @@ button:hover, a:hover {
   cursor: pointer;
   width: 100%;
 }
-
 .buy-btn button:hover {
   opacity: 0.8;
 }
@@ -106,7 +102,6 @@ button:hover, a:hover {
   width: 100%;
   border-spacing: 0;
 }
-
 .product-card img {
   width: 150px;
   height: 150px;
@@ -157,11 +152,9 @@ button:hover, a:hover {
   display: flex;
   align-items: center;
 }
-
 .logo-container i {
   margin-right: 10px;
 }
-
 .logo-container h1 {
   font-size: 24px;
   margin: 0;
@@ -174,7 +167,6 @@ button:hover, a:hover {
   padding-right: 10px;
   width: 100%;
 }
-
 .navigation-table td {
   border: 1px solid #ddd;
   text-align: left;
@@ -182,27 +174,23 @@ button:hover, a:hover {
   transition: background-color 0.3s ease;
   padding: 10px;
 }
-
-.navigation-table td:hover {
-  background-color: #e0e0e0;
-  cursor: pointer;
-}
-
 .navigation-table td a {
   display: block;
   text-decoration: none;
   color: #8B4513;
   font-weight: bold;
 }
-
 .navigation-table td a:hover {
   color: dodgerblue;
+}
+.navigation-table td:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
 }
 
 .search {
   position: relative;
 }
-
 .search input {
   border: 1px solid #ddd;
   padding-left: 10px;
@@ -210,12 +198,10 @@ button:hover, a:hover {
   width: 1240px;
   height: 35px;
 }
-
 .search input:focus {
   outline: none;
   border-color: blue;
 }
-
 .search i {
   position: absolute;
   color: dodgerblue;
@@ -246,7 +232,6 @@ td {
   padding: 10px;
   width: 25%;
 }
-
 td img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -285,9 +270,6 @@ td img {
   .logo-container {
     justify-content: center;
   }
-  .cart-btn i {
-    font-size: 1.2rem;
-  }
   .search input {
     width: 100%;
   }
@@ -295,6 +277,9 @@ td img {
     margin-left: 0;
     padding: 10px;
     justify-content: center;
+  }
+  .cart-btn i {
+    font-size: 1.2rem;
   }
   .buy-btn button {
     width: 100%;
