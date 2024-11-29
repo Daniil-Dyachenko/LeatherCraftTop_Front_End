@@ -1,0 +1,22 @@
+.list {
+  width: 20%;
+  padding: 20px;
+  border-left: 1px solid #8b4513;
+}
+.left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-title {
+  font-weight: bold;
+  color: #8b4513;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.ins-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}

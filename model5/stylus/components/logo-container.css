@@ -1,0 +1,22 @@
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+}
+.logo-container i {
+  margin-right: 10px;
+  font-size: 48px;
+}
+.logo-container h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  width: 50px;
+  font-weight: 700;
+}

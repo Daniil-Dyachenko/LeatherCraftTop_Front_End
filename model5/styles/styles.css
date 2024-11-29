@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .header {
@@ -170,7 +170,7 @@ body {
     height: 150px;
     width: 100%;
     border-top: 1px solid black;
-    margin-top: 10px;
+    margin-top: 10%;
     margin-bottom: 10px;
 }
 
@@ -179,6 +179,7 @@ body {
     grid-template-columns: repeat(3, 100px);
     justify-content: center;
     font-family: "Times New Roman", sans-serif;
+    height: 150px;
     gap: 10px 15px;
     margin-top: 10px;
 }
@@ -266,7 +267,7 @@ body {
         margin-top: 20px;
     }
     .footer-list {
-    padding-bottom: 10px;
+        padding-bottom: 10px;
     }
 }
 

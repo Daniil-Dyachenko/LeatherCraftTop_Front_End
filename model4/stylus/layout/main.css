@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.ins {
+  padding-block: 20px;
+  width: 100%;
+}
