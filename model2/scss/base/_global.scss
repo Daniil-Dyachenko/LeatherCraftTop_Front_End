@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    margin-right: 10px;
+}
+
+li:hover {
+    transform: translateX(5px);
+}

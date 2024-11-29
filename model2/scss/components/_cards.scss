@@ -1,0 +1,36 @@
+.product-card {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+}
+
+.item-info {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 5px;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+}
+
+.item-price {
+    color: black;
+    font-size: 14px;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+}
+
+.cart-btn i {
+    font-size: 1.3rem;
+}
+
+.catalog {
+    display: block
+}

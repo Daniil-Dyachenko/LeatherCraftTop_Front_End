@@ -1,0 +1,29 @@
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+button:hover, a:hover {
+    opacity: 0.8;
+}
+
+.buy-btn {
+    text-align: right;
+}
+
+.buy-btn button {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buy-btn button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,26 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    width: 50px;
+    font-weight: 700;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container i {
+    margin-right: 10px;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
